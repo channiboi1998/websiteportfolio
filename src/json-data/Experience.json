@@ -1,67 +1,80 @@
 [
     {
         "id": 1,
-        "title": "Web Developer at Digital Logic",
-        "duration": "Jun 2021 - Present",
+        "title": "Internship at MoreFun.ph",
+        "duration": "Sep 2017 - Dec 2017 · 4 mos",
         "roles": [
-            "Converting intricate Adobe XD and Figma designs with complex animations into clickable prototypes. We use WordPress CMS as our main website platform tool and Oxygen Page Builder as our primary page builder.",
-            "Create custom plugins for certain functionalities. Oxygen Page Builder is not a theme-based plugin, that is why we are required to create such custom functionalities by creating a custom plugin/hooks.",
-            "Following the right way of extending and overriding plugin functionalities, by writing the right hooks and actions; To follow WordPress coding structure."
+            "Undergo training in WordPress codex, basic web apis & introduction to PHP.",
+            "Received training in the introduction to Codeigniter (A PHP MVC Framework).",
+            "Conducted manual testing on CMS based websites. Website Forms, Email Forwarding, Security etc.",
+            "Others - Data Entry/Content Creation (i.e blog posts)."
         ]
     },
     {
         "id": 2,
+        "title": "Magento & WordPress CMS Developer at iFormatLogic",
+        "duration": "Jul 2018 - Jan 2020 · 1 yr 7 mos",
+        "roles": [
+            "Hired as a trainee, and after a week promoted to a full-time web developer position. For fresh graduates, their training usually takes one month long.",
+            "Establish and maintain websites using WordPress CMS, utilizing page builders such as Elementor and Divi.",
+            "Strictly adhere to the proper method of plugin development and standard process of extending WordPress hooks and actions.",
+            "I've been given the trust to look after a Magento 1 website, which necessitates learning about MVC Zend Framework. One of the tasks on my list is properly constructing extensions to create custom functionalities based on the client's needs.",
+            "Assigned to a team of developers from a foreign company, worked together to convert a Magento 1 website to a Magento 2 website. accurately transferring customized features from Magento 1 to Magento 2. Zend Framework and PHP MVC are used by both Magento versions."
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Freelance Web Developer at Upwork",
+        "duration": "Mar 2020 - Jul 2020 · 5 mos",
+        "roles": [
+            "Worked closely on website projects that were commission-based, using the WordPress CMS. The typical tasks include designing the prototypes in Photoshop and turning them into interactive prototypes. Using Elementor, Divi, Beaver, and Visual Composer, as our primary page builders.",
+            "Optimize websites using optimal SEO practices such as decreasing page load time and using the appropriate keywords on customers' websites to improve their position in Google Search Results."
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Junior Web Developer at Canadian Web Designs",
+        "duration":"May 2020 - Sep 2020 · 5 mos",
+        "roles": [
+            "Hired as a Junior CMS Designer/Developer, promoted to be a Lead Web Developer after 5 months.",
+            "Prepare proposals for website designs to be sent to clients. The website prototypes are made using Photoshop.",
+            "Establish and maintain websites using WordPress CMS, utilizing page builders such as Elementor.",
+            "Make a user manual or other content to help customers understand how their website functions.",
+            "Strictly adhere to the proper method of plugin development and standard process of extending WordPress hooks and actions.",
+            "CMS websites (primarily WordPress & Drupal). From website design creation utilizing tools like Photoshop and Figma, website implementation by using the CMS tools, and documentation to website deployment."
+        ]
+    },
+    {
+        "id": 5,
         "title": "Lead Web Developer at Canadian Web Designs",
         "duration": "Sep 2020 - Jan 2021 · 5 mos",
         "roles": [
-            "Led a group of CMS web designers/developers, Helping them with their projects. Help manage a team and assign projects to them.",
+            "Led a group of CMS web designers/developers, Helping them with their projects in terms of website UI/UX design, implementation to CMS, and project documentation toward migrating to production. ",
+            "Working closely with our product manager, to help and delegate projects to my co-designers/developers.",
             "Met up with clients to discuss project requirements and goals. Handling client relations and communications. Prepare business and technical documentation, and also provide technical support to clients.",
             "Assist and collaborate with other developers on technical matters. Conduct security reviews of websites created by co-developers.",
             "Server & Database Management. To strictly monitor uptime, hosting, & databases; ensure the websites are performing at maximum capacity & efficiently."
         ]
     },
     {
-        "id": 3,
-        "title": "Junior Web Developer at Canadian Web Designs",
-        "duration":"May 2020 - Sep 2020 · 5 mos",
-        "roles": [
-            "Prepare website design proposals to be presented to the clients. We use Photoshop for creating the website prototypes.",
-            "Create a user guide or documentation for clients to understand how their website and its features work.",
-            "Creating custom functionalities for custom requests from clients. Properly extending a plugin’s hook or creating a custom one via themed-base WordPress development.",
-            "Implementation and maintenance of CMS websites (primarily WordPress & Drupal). From installation, development, and documentation to deploying the websites on the web.",
-            "Handle website migrations and maintenance from one server to another."
-        ]
-    },
-    {
-        "id": 4,
-        "title": "Freelance Web Developer at Upwork",
-        "duration": "Mar 2020 - Jul 2020 · 5 mos",
-        "roles": [
-            "WordPress Support proficient with Page Builders (DIVI, Elementor & Beaver Builder).",
-            "Creating commission-based websites, designing the prototypes and converting those into a WordPress CMS-based website. Website migration and maintenance are also on my plate.",
-            "Optimizing websites and applying SEO standards on client’s websites."
-        ]
-    },
-    {
-        "id": 5,
-        "title": "Magento & WordPress CMS Developer at iFormatLogic",
-        "duration": "Jul 2018 - Jan 2020 · 1 yr 7 mos",
-        "roles": [
-            "Build and Maintain websites using CMS like WordPress & Magento (ver 1 & 2).",
-            "Following the proper way of implementing custom features and functionalities on WordPress based on client’s requirements. Custom Post Types, Custom Fields etc.",
-            "Maintaining a Magento 1 E commerce website created in Magento 1 platform. Properly creating mini custom extensions on the store is one of my errands.",
-            "Collaborated with other teams on migrating a Magento 1 website into a Magento 2 website. Properly re-creating custom functionalities from Magento 1 version, into Magento 2. Both Magento versions are using PHP MVC Zend Framework."
-        ]
-    },
-    {
         "id": 6,
-        "title": "Internship at MoreFun.ph",
-        "duration": "Sep 2017 - Dec 2017 · 4 mos",
+        "title": "Web Developer at Digital Logic",
+        "duration": "Jun 2021 - Present",
         "roles": [
-            "Received training in WordPress codex, basic web API’s & introduction to PHP.",
-            "Received training in introduction to Codeigniter (A PHP MVC Framework).",
-            "Conducted manual testing on CMS based websites. Website Forms, Email Forwarding, Security etc.",
-            "Others - Data Entry/Content Creation (i.e blog posts)."
+            "Hired as a part-time developer, elevated to become a full-time web developer after one month; right after producing a CMS-based e-commerce website with custom complex backend functionalities, that sold well after one week. All the results of excellent communication between the project manager, the UI/UX team, and me as a web developer.",
+            "Converting intricate Adobe XD and Figma designs with complex animations (via JS and jQuery) into clickable prototypes. We use WordPress CMS as our main website platform tool and Oxygen Page Builder as our primary page builder.",
+            "For certain functions, create custom plugins. Because Oxygen Page Builder is not a theme-based plugin, if we ever need to construct a bespoke complicated front-end or back-end functionality, we must create a special plugin.",
+            "Following the right way of extending and overriding plugin functionalities, by writing the right hooks and actions; To follow WordPress coding structure."
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Trainee at Village88",
+        "duration": "Jul 2022 - Oct 2022",
+        "roles": [
+            "Completed 1 Capstone project, passed all 4 exams, and all finished 320+ assignments/machine problems.",
+            "Made my own E-Commerce Web Application utilizing the PHP Framework CodeIgniter.",
+            "Capable of leveraging NodeJS and Express to build my own MVC library from scratch."
         ]
     }
 ]
