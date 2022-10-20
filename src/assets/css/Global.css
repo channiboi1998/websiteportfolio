@@ -1,0 +1,228 @@
+h1 {
+    font-size: 95px;
+    line-height: 1em;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #0052cb;
+}
+
+.section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+button.navbar-toggler {
+    border: unset;
+    padding: unset;
+}
+
+.section.hero,
+.section.experience {
+    padding-top: 120px;
+}
+
+.progress-bar {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 5px;
+    width: 100%;
+    z-index: 1;
+    transform-origin: 0%;
+}
+
+/** Home Page Component **/
+.section.hero {
+    padding-bottom: 0px;
+}
+
+.section.hero .Typewriter {
+    min-height: 300px;
+}
+
+.section.hero img {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.section.hero .social-links svg {
+    margin-right: 3px;
+}
+
+.section.hero .social-links a {
+    color: var(--bs-body-color);
+    margin-right: 15px;
+}
+
+.section.portfolio img.portfolio-preview {
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.section.portfolio .badge {
+    margin: 5px;
+    margin-left: unset;
+}
+
+/** Portfolio Component **/
+.portfolio-entry {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.portfolio-entry .card {
+    height: 100%;
+    position: relative;
+    padding-bottom: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.portfolio-action {
+    position: absolute;
+    bottom: 15px;
+}
+
+/** About Page Component **/
+.section.experience .hero-content .badge {
+    margin: 5px;
+    margin-left: unset;
+}
+
+@media (min-width: 992px) {
+
+    /** Navigation Component **/
+    .navigation .links {
+        margin-left: auto;
+    }
+
+    /** Home Page Component **/
+    .section.hero .hero-content {
+        padding-right: 20%;
+    }
+
+    /** Experience Component **/
+    .section.experience .hero-content {
+        padding-right: 10%;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .row>*,
+    nav.navigation.navbar .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .section.hero,
+    .section.experience {
+        padding-top: 85px;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .section.portfolio img.portfolio-preview {
+        height: 170px;
+    }
+
+    .section.hero .social-links a {
+        margin: unset;
+    }
+
+    .section.hero .social-links.p-0.container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+
+    .section.hero img.img-desktop {
+        display: none;
+    }
+
+    .section.hero .home-hero-heading {
+        background-image: url('https://kelvino40.sg-host.com/wp-content/uploads/2022/10/my-photo.b84aad60aa2d225bfe3b-scaled.jpg');
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        background-size: cover;
+        background-position: top;
+        height: 400px;
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    .heading-overlay,
+    .section.hero .Typewriter {
+        position: absolute;
+    }
+
+    .heading-overlay {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgb(2, 0, 36);
+        background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.7147233893557423) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    .section.hero .Typewriter {
+        bottom: 0;
+        font-size: 52px;
+        min-height: 200px;
+        left: 10px;
+        right: 10px;
+        color: #fff;
+    }
+
+    .section.hero .hero-content {
+        display: grid;
+    }
+
+    .navigation.navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .progress-bar {
+        top: 56px;
+    }
+}
+
+@media (max-width: 576px) {}
